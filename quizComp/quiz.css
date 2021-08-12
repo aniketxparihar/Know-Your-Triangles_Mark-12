@@ -12,20 +12,27 @@ body{
     justify-content: center;
     flex-direction: column;
     border:1px solid rgb(79, 189, 79);
+    border-radius: 5px;
+    font-weight: 800;
     
 }
 input{
-    
+    border-radius: 5px;
     padding:0.5rem;
    
 }
 .question{
-    padding:2rem;
+    padding:1rem;
+    margin:0.5rem;
     display:flex;
     flex-direction: column;
+    border-radius:5px;
+    background-color: rgb(252, 250, 250);
+
 }
 
 button{
+    border-radius: 5px;
     margin:1rem;
     padding:1rem;
     width:8rem;
@@ -35,23 +42,29 @@ button{
 }
 .result{
     height:3rem;
-    
-    padding:0.5rem;
+    border-radius: 5px;
+    padding:0.5rem 3rem;
     margin:2rem;
     text-align: center;
     font-family: monospace;
-    border:1px solid green;
+    font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(245, 245, 245);
 }
 h1{
     font-family: monospace;
     font-size: 2rem;
 }
 .form-submit{
+    border-radius: 5px;
     display: flex;
     align-items: center;
     width:100%;
     justify-content: center;
+}
+img{
+    width:14rem;
+    height:12rem;
 }

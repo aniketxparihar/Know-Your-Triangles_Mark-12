@@ -12,18 +12,20 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    border:1px solid rgb(79, 189, 79);
+    width:20rem;
+    border:2px solid rgb(79, 189, 79);
+    border-radius: 5px;
     
 }
 input{
     height:3rem;
-   
+   border-radius: 5px;
     padding:0.5rem;
     margin:2rem;
 }
 
 button{
+    border-radius: 5px;
     padding:1rem;
     width:8rem;
     border: 0px;;
@@ -32,17 +34,22 @@ button{
 }
 .show{
     height:3rem;
-   
+    background-color: rgb(252, 246, 246);
     padding:0.5rem;
     margin:2rem;
     text-align: center;
     font-family: monospace;
-    border:1px solid green;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 h1{
     font-family: monospace;
     font-size: 2rem;
+}
+img{
+    height:12rem;
+    width:14rem;
 }
