@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height:50rem;
+   
    
     
 }
@@ -12,13 +12,12 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height:50rem;
     border:1px solid rgb(79, 189, 79);
     
 }
 input{
     height:3rem;
-    width:500px;
+   
     padding:0.5rem;
     margin:2rem;
 }
@@ -32,7 +31,7 @@ button{
 }
 .show{
     height:3rem;
-    width:500px;
+    
     padding:0.5rem;
     margin:2rem;
     text-align: center;
@@ -44,5 +43,5 @@ button{
 }
 h1{
     font-family: monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
