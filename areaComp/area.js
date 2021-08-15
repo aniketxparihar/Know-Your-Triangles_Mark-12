@@ -3,7 +3,7 @@ var height = document.querySelector(".height");
 var show = document.querySelector(".show");
 var btn = document.querySelector(".calculate");
 function showanswer() {
-    document.querySelector(".show").innerText = "Area of triangle = 1/2 * Base * Height";
+    
     if(base.value === "" || height.value === ""){
         document.querySelector(".show").innerText = "Fields cannot be empty";
     }

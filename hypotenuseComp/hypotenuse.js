@@ -2,12 +2,12 @@ var base = document.querySelector(".base");
 var height = document.querySelector(".height");
 var show = document.querySelector(".show");
 var btn = document.querySelector(".calculate");
-document.querySelector(".show").innerText = "Note : Base² + Height² = Hypotenuse² A hypotenuse is the longest side of a right-angled triangle";
+document.querySelector(".show").innerText = "Note : A hypotenuse is the longest side of a right-angled triangle";
 
 function showresult() {
     console.log("hello");
     if(base.value === "" || height.value === ""){
-        document.querySelector(".show").innerText = "Fields cannot be empty";
+        document.querySelector(".show").innerText = "Fields can not be empty";
     }
 
     else if(base.value < 0 || height.value < 0){

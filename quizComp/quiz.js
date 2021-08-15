@@ -3,35 +3,38 @@ const question = document.querySelectorAll(".question");
 const submitBtn = document.querySelector("#submit-btn");
 const resetBtn = document.querySelector("#reset-btn");
 
-const correctAns = ["a" ,"c","b", "a","b","b"];
+//Correct Answers of the questions
+const correctAns = ["b" ,"b","b", "c","a","a"];
 
 var score = 0;
-
+//event listener for submit button
 quizForm.addEventListener('submit',(e)=>{
     e.preventDefault();
     var data = new FormData(quizForm);
-    var index=0;
-    for(let element of data){
-       if(element[1] == correctAns[index]){
+    var index = 0;
+    console.log(data)
+    for (let element of data) {
+        console.log(element)
+       if(element[1] == correctAns[index]){//each 
             question[index].style.color = "#4eb84c";
-            score++;
+            score++;//incrementing score inside the if
        }
-       else{
+       else{//
         question[index].style.color = "#ff2b2b";
-       } index++;
-    }
+       } index++;//incrementing index for question array
+    }//end of loop
 
     document.querySelector(".result").innerText = `Your Score is ${score}`;
 
 });
-
+//event listener for Reset Button
 resetBtn.addEventListener("click", ()=>{
     document.getElementById("quizForm").reset();
     score=0;
     for(var i=0;i<question.length;i++)
-    {
+    {//Changing the colors of element back to black
         question[i].style.color = "#141414";
-    }
-    document.querySelector(".result").innerText = "Note : Your Score will be displayed here";
+    }//display score
+    document.querySelector(".result").innerText = " Your Score will be displayed here";
    
 });
