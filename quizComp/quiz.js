@@ -17,9 +17,9 @@ quizForm.addEventListener('submit',(e)=>{
         console.log(element)
        if(element[1] == correctAns[index]){//each 
             question[index].style.color = "#4eb84c";
-            score++;//incrementing score inside the if
+            score++;//incrementing score 
        }
-       else{//
+       else{
         question[index].style.color = "#ff2b2b";
        } index++;//incrementing index for question array
     }//end of loop
