@@ -2,3 +2,5 @@
 Have Fun with the Triangle Web App. 
 It has four sections to play with the knowledge of Triangles.
 Checkout the Quiz Section too.
+
+Checkout the APP here-https://funxwithxtriangles.netlify.app/
